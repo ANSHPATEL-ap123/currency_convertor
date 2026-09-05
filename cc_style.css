@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:darkslategray;
+    font-family: Arial, sans-serif;
+    color: #222;
+}
+
+.container {
+    width: 360px;
+    padding: 28px;
+    background-color: white;
+    border-radius: 15px;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 22px;
+    font-size: 26px;
+}
+
+/* Amount */
+
+.amt p {
+    margin-bottom: 7px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.amt input {
+    width: 100%;
+    height: 40px;
+    padding: 8px 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+    outline: none;
+}
+
+/* Currency Section */
+
+.dropdown {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+
+.from,
+.to {
+    width: 120px;
+}
+
+.from p,
+.to p {
+    margin-bottom: 7px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.select-container {
+    width: 120px;
+    height: 105px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #fafafa;
+}
+
+.select-container img {
+    width: 50px;
+}
+
+.select-container select {
+    width: 85px;
+    height: 28px;
+    border: 1px solid #bbb;
+    border-radius: 4px;
+    background-color: white;
+    font-size: 14px;
+}
+
+/* Swap Icon */
+
+.dropdown i {
+    font-size: 18px;
+    color: #333;
+}
+
+/* Message */
+
+.msg {
+    margin-top: 25px;
+    margin-bottom: 15px;
+    padding: 10px;
+    text-align: center;
+    background-color: #f5f5f5;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    font-size: 15px;
+}
+
+/* Button */
+
+button {
+    width: 100%;
+    height: 40px;
+    border: none;
+    border-radius: 6px;
+    background-color: #2563eb;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+}
